@@ -7,8 +7,6 @@ coverage/
 catalog/
 src/providers/registry*.generated.ts
 src/providers/action-contracts.generated.ts
-.env
-.env.*
 !.env.example
 .DS_Store
 *.log
@@ -23,3 +21,8 @@ xero-encryption-key.txt
 # README only embeds the SVGs. PNG doesn't delta-compress, so committing it
 # would grow the repo by ~60 KB per refresh for nothing.
 assets/star-history/star-history.png
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
